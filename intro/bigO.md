@@ -16,3 +16,13 @@ To answer this question, you would write an algorithm that takes an array called
 
 - Algorithms should be deterministic. Given the same input, the algorithm should always produce the same output. Basically, there shouldn't be any randomness.
 - The algorithm should be correct for any arbitrary valid input. In our example, we said that nums is a non-empty array of positive integers. There are infinitely many of such arrays, and our algorithm works for all of them. Note that if nums had negative numbers, the input would be invalid since we stated the integers are positive. In fact, our algorithm would actually break because we initialized maxNum to 0, so if all of nums was negative, we would incorrectly output 0.
+
+# Big O
+Big O is a notation used to describe the computational complexity of an algorithm. The computational complexity of an algorithm is split into two parts: time complexity and space complexity. The time complexity of an algorithm is the amount of time the algorithm needs to run relative to the input size. The space complexity of an algorithm is the amount of memory allocated by the algorithm when run relative to the input size.
+
+>[!important]
+>Typically, people care about the time complexity more than the space complexity, but both are important to know.
+
+Time complexity: as the input size grows, how much longer does the algorithm take to complete?
+
+Space complexity: as the input size grows, how much more memory does the algorithm use?
